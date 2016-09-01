@@ -1,0 +1,116 @@
+---
+layout: default
+title: Classroom
+post_scripts:
+ - js/classroom.js
+startup_functions:
+ - redirectIfNotLoggedIn()
+---
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" style="margin-bottom: 10px">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        You have created a teacher account, which allows you to manage multiple teams grouped together in classes.
+                        On this page, you can create new class groups, check which teams are in which class groups, and see the list of members on each team.
+                    </p>
+                    <p>
+                        Note that you cannot automatically add teams to a class. Instead, you provide your username and the name of the class to your students, who
+                        join the class on their account on the "Team" page.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="group-management"></div>
+    </div>
+</div>
+
+<script type="text/template" id="team-selection-template">
+      <div class="row" style="margin-top: 10px">
+        <div class="col-md-12">
+          <% if(teams.length > 0 ) { %>
+            <% _.each(teams, function(team) { %>
+              <div class="row">
+                <div class="col-md-12">
+                    <div class="problem panel panel-primary">
+                      <div class="panel-heading team-visualization-enabler" data-tid="<%= team.tid %>" data-toggle="collapse" data-target="#<%= team.tid %>">
+                          <%- team.team_name %> (Click to Open)<div class="pull-right"><%- team.competition_active ? team.score : '' %></div>
+                      </div>
+                      <div class="panel-collapse collapse" id="<%= team.tid %>">
+                        <div class="panel-body">
+                          <div class="col-md-8">
+                            <div class="team-visualizer">
+                              Loading...
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="team-information">
+                                <h3>Team Members:</h3>
+                                <ul>
+                                    <% _.each(team.members, function(member) { %>
+                                    <li><%- member %></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+                </div>
+              </div>
+            <% }) %>
+          <% } else { %>
+            <div style="margin-left: 5px">
+                <p>This class currently has no teams. Students can join this class by visiting the "Team" page, and entering the following under "Class Membership":</p>
+                <div><p><strong>Class Name</strong>: <%- groupName %><br/>
+                     <strong>Teacher Username</strong>: <%- userStatus.username %></p></div>
+                <p>Followed by pressing the "Join" button. Only one student from each team needs to join for a team to be added to a class.</p>
+            </div>
+          <% } %>
+        </div>
+      </div>
+</script>
+
+<script type="text/template" id="group-info-template">
+    <% if (data.length > 0 ) { %>
+        <ul class="nav nav-tabs nav-tabs-outline" role="tablist" id="class-tabs">
+          <% _.each(data, function(group, index) { %>
+            <li><a href="#group-tab-<%- group.gid %>"
+                   class="group-tab"
+                   data-gid="<%- group.gid %>"
+                   data-group-name="<%- group.name %>"
+                   role="tab" data-toggle="tab">
+                        <%- group.name %>
+                        <span data-group-name="<%- group.name %>" class="glyphicon glyphicon-remove delete-group-span"></span>
+                </a>
+            </li>
+          <% }); %>
+          <li><a href="#" id="new-class-tab">New Class</a></li>
+        </ul>
+        <div class="tab-content">
+          <% _.each(data, function(group, index) { %>
+            <div class="tab-pane tab-pane-outline" id="group-tab-<%- group.gid %>"></div>
+          <% }); %>
+        </div>
+    <% } else { %>
+     <div class="col-md-12">
+        <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit" id="new-class-button">Create a New Class</button>
+        </span>
+     </div>
+    <% } %>
+</script>
+
+<script type="text/template" id="new-group-template">
+<p>What do you want your class to be called?</p>
+<form role="form" onsubmit="$('#modal-submit-button').click(); return false">
+    <div class="form-group">
+        <input type="text" class="form-control" id="new-group-name" placeholder="Class Name">
+    </div>
+</form>
+</script>

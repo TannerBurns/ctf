@@ -1,0 +1,138 @@
+---
+layout: default
+title: Team
+pre_scripts:
+ - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/popover.js
+ - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.js
+post_scripts:
+ - js/progression_graphs.js
+ - js/team.js
+startup_functions:
+ - redirectIfNotLoggedIn()
+ - redirectIfTeacher()
+---
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div id="team-info"></div>
+      <div class="panel panel-default" id="team-progression-graph-container" >
+          <div class="panel-heading">
+             <h3 class="panel-title">Team Score Progression</h3>
+          </div>
+          <div class="panel-body team-panel-body">
+             <div id="team-progression-graph"></div>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div id="group-info"></div>
+      <div id="achievement-info"></div>
+    </div>
+  </div>
+</div>
+
+<script type="text/template" id="group-info-template">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Class Membership</h3>
+    </div>
+    <% if(data.length > 0) { %>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="deleter-column"></th>
+            <th>Class Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% _.each(data, function(group) { %>
+            <tr>
+              <td>
+                <span data-group-name="<%- group.name %>" data-group-owner="<%- group.owner %>" class="glyphicon glyphicon-remove leave-group-span"></span>
+              </td>
+              <td>
+                <p><%- group.name %> (<%- group.owner %>)</p>
+              </td>
+            </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    <% } %>
+
+    <div class="panel-body team-panel-body">
+      <form role="form" class="form-inline" id="group-request-form" type="submit">
+        <div class="form-group">
+            <label class="sr-only" for="group-name-input">Class Name</label>
+            <input type="text" class="form-control class-class-name" id="group-name-input" placeholder="Class Name">
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="group-owner-input">Teacher</label>
+            <input type="text" class="form-control class-teacher-username" id="group-owner-input" placeholder="Teacher Username">
+        </div>
+        <button class="btn btn-primary" id="join-group">Join</button>
+      </div>
+    </form>
+  </div>
+</script>
+
+<script type="text/template" id="team-info-template">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Team: <strong><%- data.team_name %> <div class="pull-right"><%- data.competition_active ? data.score : '' %></strong></h3>
+    </div>
+    <div class="panel-body">
+      <p>Your Team Passphrase is <strong><%- data.password %></strong>.</p>
+      <p>Members:</p>
+      <ul>
+        <% _.each(data.members, function(username) { %>
+          <li><%- username %></li>
+        <% }); %>
+      </ul>
+        <% if (_.size(data.members) < data.max_team_size) { %>
+            <p>You may have up to <%- data.max_team_size - _.size(data.members) %> more member<%- (data.max_team_size - _.size(data.members)) == 1 ? "" : "s" %> on your team.</p>
+            <p>New team members can join at any time.</p>
+        <% } else { %>
+            <p>Your team is full. No more members may join your team.</p>
+        <% }; %>
+        <% if (data.eligible) { %>
+            <p>Your team is <b>eligible</b>.</p>
+        <% } else { %>
+            <p>Your team is <b>ineligible</b> (<a href="#" class="poptrigger" id='eligibility-exp' data-container="body" data-toggle="popover" data-placement="right"
+                                                  data-content="">See Explanation</a>).</p>
+        <% } %>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="achievement-info-template">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Achievements</h3>
+    </div>
+    <div class="panel-body">
+        <div style="height: 300px; overflow: auto;">
+            <table>
+                <% if (_.size(data) > 0) { %>
+                    <% _.each(data, function(achievement) { %>
+                        <tr><td><img class="image-achievement" src='<%- achievement.image %>'/></td>
+                            <td style="padding-left:15px">
+                                <div><h3 style="margin-top:0px;"><%- achievement.name %></h3></div>
+                                <div><%- achievement.description %></div>
+                            </td>
+                        </tr>
+                    <% }); %>
+                <% } else { %>
+                    <tr><td>You currently have no achievements. Achievements are earned by solving challenges and playing through the story.</td></tr>
+                <% } %>
+            </table>
+        </div>
+    </div>
+  </div>
+</script>
+
+<script language="javascript">
+    $(window).load(function() {
+        console.log($('.poptrigger'));
+        $('.poptrigger').popover({html: true});
+    });
+</script>

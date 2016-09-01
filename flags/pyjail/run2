@@ -1,0 +1,2 @@
+#!/bin/bash
+/home/vagrant/servers/pyjail/server/server.py
