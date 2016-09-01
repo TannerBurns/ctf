@@ -1,5 +1,6 @@
 *.pyc
 *.project
+.DS_Store
 .idea
 .vagrant
 web/js/*.js
