@@ -1,6 +1,8 @@
 # ctf
 
 #First Time
+Step 0) Have the latest virtualbox installed and the latest vagrant installed.
+
 Step 1) In terminal,inside the ctf-master:
 
 		$vagrant up
