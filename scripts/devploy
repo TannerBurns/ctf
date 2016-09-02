@@ -33,6 +33,6 @@ echo "Clearing the API cache"
 /home/vagrant/api/api_manager.py database clear cache
 
 #Start picoCTF API
-echo "Starting the TxState CTF"
+echo "Starting the TxState Ctf"
 tmux kill-session -t picoapi 2> /dev/null
 tmux new-session -s picoapi -d "cd /home/vagrant/api && python3 run.py"

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Starting pyjail server
+echo "Starting server for pyjail"
+cd /vagrant/flags/pyjail; /vagrant/flags/pyjail/run-pj &
+
+
+# Starting formatstring server
+echo "Starting server for Formatstring"
+cd /vagrant/flags/formatstring; /vagrant/flags/formatstring/run-fs

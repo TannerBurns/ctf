@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Removing problems from db
+echo "######  Removing problems from mongo database  ######"
+echo "db.problems.remove()" | mongo pico 
+echo "db.submissions.remove()" | mongo pico
+
+#Adding problems
+echo "######  Adding problems to database  ######"
+cd /home/vagrant/api; sudo python3 api_manager.py problems load /vagrant/problems/ grader/ ../problem_static
+cd /home/vagrant/api; sudo python3 api_manager.py autogen build 100
+
+#devploy to add to site
+echo "######  Running devploy to add problems to site  ######"
+devploy
