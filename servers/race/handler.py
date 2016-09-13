@@ -3,6 +3,5 @@
 
 import signal, subprocess
 
-#signal.alarm(2)
-#cmd = '/vagrant/servers/race/questions.py -u'
+signal.alarm(1)
 subprocess.Popen(['/usr/bin/python','/vagrant/servers/race/questions.py']).communicate()
