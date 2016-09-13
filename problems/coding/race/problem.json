@@ -1,0 +1,8 @@
+{"name": "The Race",
+ "score": 25,
+ "category": "Coding",
+ "grader": "coding/race/grader.py",
+ "description": "Race me at: nc 127.0.0.1 9999",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "The proper tools must be used to pwn this race"}

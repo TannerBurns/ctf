@@ -1,7 +1,11 @@
 #!/bin/bash
 
+#Start The Race server
+echo "Starting server for The Race"
+/vagrant/servers/race/server.py &
+
 # Starting pyjail server
-echo "Starting server for pyjail"
+echo "Starting server for Pyjail"
 cd /vagrant/flags/pyjail; /vagrant/flags/pyjail/run-pj &
 
 
