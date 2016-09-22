@@ -20,11 +20,13 @@ Step 4) To start site & servers,
 		$launch
 
 #Useful Commands
-	$Vagrant up -> start the vm
+	$vagrant up -> start the vm
 
-	$Vagrant ssh -> ssh into the virtual machine (if in windows, easier to use virtualbox vm)
+	$vagrant ssh -> ssh into the virtual machine (if in windows, easier to use virtualbox vm)
 
-	$Vagrant halt -> shuts down vm
+	$vagrant halt -> shuts down vm
+
+	$vagrant destroy -> destroys vm, removes all vm files
 
 	$devploy -> builds the website
 
