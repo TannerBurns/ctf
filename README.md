@@ -1,7 +1,7 @@
 # ctf
 
 #First Time
-Step 0) Have the latest virtualbox installed and the latest vagrant installed.
+Step 0) Have the latest virtualbox(www.virtualbox.org) installed and the latest vagrant(www.vagrantup.com) installed.
 
 Step 1) In terminal,inside the ctf-master:
 
@@ -18,6 +18,20 @@ Step 4) To start site & servers,
 		$devploy (if not the first time running system)
 		
 		$launch
+
+#Useful Commands
+1) Vagrant up -> start the vm
+
+2) Vagrant ssh -> ssh into the virtual machine (if in windows, easier to use virtualbox vm)
+
+3) Vagrant halt -> shuts down vm
+
+4) Devploy -> builds the website
+
+5) launch -> starts servers (leave terminal open)
+
+6) genprob -> erases current problems from database and regenerates the old and new problems
+
 
 #Updating/Adding problems
 If you update/add problems,
