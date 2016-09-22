@@ -20,17 +20,17 @@ Step 4) To start site & servers,
 		$launch
 
 #Useful Commands
-1) Vagrant up -> start the vm
+	$Vagrant up -> start the vm
 
-2) Vagrant ssh -> ssh into the virtual machine (if in windows, easier to use virtualbox vm)
+	$Vagrant ssh -> ssh into the virtual machine (if in windows, easier to use virtualbox vm)
 
-3) Vagrant halt -> shuts down vm
+	$Vagrant halt -> shuts down vm
 
-4) Devploy -> builds the website
+	$devploy -> builds the website
 
-5) launch -> starts servers (leave terminal open)
+	$launch -> starts servers (leave terminal open)
 
-6) genprob -> erases current problems from database and regenerates the old and new problems
+	$genprob -> erases current problems from database and regenerates the old and new problems
 
 
 #Updating/Adding problems
