@@ -19,7 +19,7 @@ Step 4) To start site & servers,
 		
 		$launch
 
-#If install failes (IMPORTANT)
+#If install fails (IMPORTANT)
 	If the install fails,
 		1) $vagrant destroy
 
