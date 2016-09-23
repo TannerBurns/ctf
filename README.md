@@ -19,6 +19,18 @@ Step 4) To start site & servers,
 		
 		$launch
 
+#If install failes (IMPORTANT)
+	If the install fails,
+		1) $vagrant destroy
+
+		2) Delete directroy that you tried to vagrant up in
+
+		3) Reclone or recreate the directory
+
+		4) try vagrant up again
+
+		5) Windows users - there could be a ssh timeout that could be caused from a firewall blocking the ssh connection
+
 #Useful Commands
 	$vagrant up -> start the vm
 
