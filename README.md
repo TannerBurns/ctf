@@ -29,7 +29,7 @@ Step 4) To start site & servers,
 
 		4) try vagrant up again
 
-		5) Windows users - there could be a ssh timeout that could be caused from a firewall blocking the ssh connection
+		5) Windows users - there could be a ssh timeout that could be caused from a firewall blocking the ssh connection (try turning off firewall software)
 
 #Useful Commands
 	$vagrant up -> start the vm
