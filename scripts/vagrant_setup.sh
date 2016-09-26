@@ -22,10 +22,9 @@ apt-get -y install openjdk-7-jdk
 apt-get -y install ruby2.0
 apt-get -y install ruby2.0-dev
 #able to run 32bit exe
-sudo dpkg --add-architecture i386
-apt-get -y install libc6:i386 
-apt-get -y install libncurses5:i386 
-apt-get -y install libstdc++6:i386
+apt-get -y install lib32z1 
+apt-get -y install lib32ncurses5
+apt-get -y install lib32bz2-1.0
 
 npm install -g coffee-script
 npm install -g react-tools
