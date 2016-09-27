@@ -5,7 +5,7 @@ Step 0) Have the latest virtualbox(www.virtualbox.org) installed and the latest 
 
 Step 1) In terminal,inside the ctf-master:
 
-		$vagrant up
+		$vagrant up --provider virtualbox
 
 Step 2) Go to 127.0.0.1:8080 in the browser
 
