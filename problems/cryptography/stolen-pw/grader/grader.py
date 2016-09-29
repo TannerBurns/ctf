@@ -1,5 +1,5 @@
 def grade(arg, key):
-    if "FLAG{Ch3ck3r3d_Fl4g5}" in key:
-        return True, "Good Job!"
+    if "FLAG{md5_i5_w34k}" in key:
+        return True, "Good job!"
     else:
         return False, "Nope, that's not the flag."

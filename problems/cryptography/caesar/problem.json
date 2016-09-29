@@ -1,0 +1,8 @@
+{"name": "Super Old Cipher",
+ "score": 20,
+ "category": "Cryptography",
+ "grader": "cryptography/caesar/grader.py",
+ "description": "Can you find the flag in this <a target=_blank href='/problem-static/cryptography/caesar/file.enc'>encrypted file</a>?",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "There are two ingredients in this salad."}

@@ -1,0 +1,8 @@
+{"name": "Witches",
+ "score": 15,
+ "category": "Coding",
+ "grader": "coding/witches/grader.py",
+ "description": "Can you turn this string into a flag? 464c41477b336e436f64316e475f346e445f6433633044316e477d",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "A witch put a hex on this string."}

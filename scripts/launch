@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#Start stolen-pw server
+echo "Starting the server for Stolen Password"
+/vagrant/servers/stolen-pw/server.py &
+
+#Start hacker level server
+echo "Starting server for the Hacker Level"
+/vagrant/servers/hackerlvl/server.py &
+
 #Start The Race server
 echo "Starting server for The Race"
 /vagrant/servers/race/server.py &

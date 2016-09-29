@@ -4,11 +4,13 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "trusty64"
   config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
+  config.vm.network :forwarded_port, guest: 20202, host: 20202, auto_correct: true
+  config.vm.network :forwarded_port, guest: 11111, host: 11111, auto_correct: true
   config.vm.network :forwarded_port, guest: 19999, host: 19999, auto_correct: true
   config.vm.network :forwarded_port, guest: 12016, host: 12016, auto_correct: true
   config.vm.network :forwarded_port, guest: 17777, host: 17777, auto_correct: true
   config.vm.network :forwarded_port, guest: 80, host: 8080, auto_correct: true
-  config.vm.network :forwarded_port, guest: 22, host: 6174, auto_correct: true
+  config.vm.network :forwarded_port, guest: 22, host: 6174
   config.vm.network :forwarded_port, guest: 8000, host: 8000, auto_correct: true
   config.vm.network :forwarded_port, guest: 27017, host: 27017, auto_correct: true
   config.vm.network :forwarded_port, guest: 1337, host: 1337, auto_correct: true

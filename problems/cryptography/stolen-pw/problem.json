@@ -1,0 +1,8 @@
+{"name": "Stolen Password",
+ "score": 15,
+ "category": "Cryptography",
+ "grader": "cryptography/stolen-pw/grader.py",
+ "description": "Can you crack a password for me, if I can log on I will give you the flag. Connect here: nc 127.0.0.1 20202",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Luckily this person wasn't salty."}
