@@ -1,5 +1,5 @@
 {"name": "The Race",
- "score": 25,
+ "score": 30,
  "category": "Coding",
  "grader": "coding/race/grader.py",
  "description": "Race me at: nc 127.0.0.1 19999",
