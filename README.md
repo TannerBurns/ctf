@@ -13,7 +13,7 @@ Step 3) (If it is first time using 'vagrant up') Register with the site
 
 Step 4) To start site & servers,
 
-		$vagrant ssh
+		$vagrant ssh (does not work on windows-use program like putty)
 
 		$devploy (if not the first time running system)
 		
