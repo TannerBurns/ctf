@@ -1,0 +1,8 @@
+{"name": "Captured packets",
+ "score": 50,
+ "category": "Forensics",
+ "grader": "forensics/Pcap/grader.py",
+ "description": "Search through the web traffic <a target=_blank href='/problem-static/forensics/PDcap/dump.pcap'>pcap file</a>.",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Use Wireshark"}

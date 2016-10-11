@@ -1,0 +1,8 @@
+{"name": "PDF message",
+ "score": 50,
+ "category": "Forensics",
+ "grader": "forensics/PDFmessage/grader.py",
+ "description": "The pdf file signatures seem odd in this <a target=_blank href='/problem-static/forensics/PDFmessage/Fall-of-Roman-Empire.pdf'>pdf file</a>.",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Hex edit"}

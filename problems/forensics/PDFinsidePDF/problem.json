@@ -1,0 +1,8 @@
+{"name": "PDF markers",
+ "score": 50,
+ "category": "Forensics",
+ "grader": "forensics/PDFinsidePDF/grader.py",
+ "description": "Is something hidden in this <a target=_blank href='/problem-static/forensics/PDFinsidePDF/french-rev.pdf'>pdf file</a>?",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Try using a hex editor like Bless Hex Editor"}
