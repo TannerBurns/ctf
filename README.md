@@ -1,7 +1,7 @@
 # ctf
 
 #First Time
-Step 0) Have virtualbox(www.virtualbox.org, version 5.1.4(best)) installed and the latest vagrant(www.vagrantup.com) installed.
+Step 0) Have virtualbox(https://www.virtualbox.org/wiki/Download_Old_Builds_5_1, version 5.1.4(best)) installed and the latest vagrant(www.vagrantup.com) installed.
 
 Step 1) In terminal,inside the ctf-master:
 
