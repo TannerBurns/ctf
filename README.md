@@ -1,5 +1,40 @@
 # ctf
 
+#Clone/Download Repository
+Regardless of the system you are using, you are going to need to have access to this repository. However, the system you are using could effect the way you go about doing so. 
+	
+Linux/iOS Users:
+
+	Option 1) Clone - 
+	
+		a. Make sure that you are viewing the "<> Code" tab of the ctf repository page.
+		b. Find the green "Clone or download" button at the top right corner of the page.
+		c. Click the button and copy the web URL that is displayed in the box.
+		d. Open a terminal and choose the directory that you want to clone into.
+		e. Now, by using the command "$git clone <https URL>", you will create a local remote repository.
+		
+		**You'll want to periodically check for any updates in the repository by using the "$git pull" command when you are in your local directory.
+	
+	Option 2) Download ZIP - 
+	
+		a. Make sure that you are viewing the "<> Code" tab of the ctf repository page.
+		b. Find the green "Clone or download" button at the top right corner of the page.
+		c. Find the "Download ZIP" button in the resulting window.
+		d. Click it, download the zip file, and extract the files into the local directory of your choice.
+		
+		**Any time you want to update, you'll need to download the zip file again in order to have access to the latest changes.
+	
+Windows Users:
+
+		Download ZIP -
+		
+		a. Make sure that you are viewing the "<> Code" tab of the ctf repository page.
+		b. Find the green "Clone or download" button at the top right corner of the page.
+		c. Find the "Download ZIP" button in the resulting window.
+		d. Click it, download the zip file, and extract the files into the local directory of your choice.
+		
+		**Any time you want to update, you'll need to download the zip file again in order to have access to the latest changes.
+		
 #First Time
 Step 0) Have latest virtualbox(www.virtualbox.org) installed and the latest vagrant(www.vagrantup.com) installed.
 
