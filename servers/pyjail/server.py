@@ -7,7 +7,7 @@ class ClientHandler(SocketServer.BaseRequestHandler):
 
      def handle(self):
          fd = self.request.fileno()
-         subprocess.Popen(['/usr/bin/python','/vagrant/servers/pyjail/server/pjail.py'], stdin=fd, stdout=fd, stderr=fd).communicate()
+         subprocess.Popen(['/usr/bin/python','/vagrant/servers/pyjail/pjail.py'], stdin=fd, stdout=fd, stderr=fd).communicate()
 
 if __name__ == "__main__":
      #for fbctf: 10.10.10.5; for picoctf:0.0.0.0
