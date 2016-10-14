@@ -21,6 +21,8 @@ apt-get -y install openjdk-7-jdk
 #fix for mac
 apt-get -y install ruby2.0
 apt-get -y install ruby2.0-dev
+#run 32bit on 64bit
+apt-get -y install libc6-i386
 
 npm install -g coffee-script
 npm install -g react-tools

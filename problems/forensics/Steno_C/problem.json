@@ -1,7 +1,7 @@
 {"name": "Tabs and Spaces",
  "score": 100,
  "category": "Forensics",
- "grader": "forensics/Steno_c/grader.py",
+ "grader": "forensics/Steno_C/grader.py",
  "description": "You should alwasy check your whitespace. Compile the code and see the results. Modify as needed.<a target=_blank href='/problem-static/forensics/Steno_C/secret.c'>given file</a>?",
  "threshold": 0,
  "weightmap": {},

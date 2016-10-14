@@ -1,0 +1,27 @@
+var express = require('express');
+var app = express();
+var port = process.env.PORT || 30003;
+var crypto = require('crypto');
+var bodyParser = require('body-parser')
+var salt = 'somestring';
+var iteration = /// some number here;
+var keylength = // some number here;
+
+app.post('/login', function (req, res) {
+	var username = req.body.username;
+	var password = req.body.password;
+	if (username !== ‘boko’) {
+		res.send('Username is wrong');
+		return;
+	}
+	if (crypto.pbkdf2Sync(password, salt, iteration, keylength).toString() === hashOfPassword) {
+		if (password === 'complexPasswordWhichContainsManyCharactersWithRandomSuffixeghjrjg') {
+			// some logic here and return something
+		} else {
+			// return flag here
+		}
+	} else {
+		res.send('Password is wrong');
+	}
+});
+
