@@ -3,7 +3,7 @@
 #Clone/Download Repository
 Regardless of the system you are using, you are going to need to have access to this repository. However, the system you are using could effect the way you go about doing so. 
 	
-Linux/iOS Users:
+Linux/OS X Users:
 
 	Option 1) Clone - 
 	
