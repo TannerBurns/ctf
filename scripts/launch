@@ -16,6 +16,15 @@ echo "Starting server for The Race"
 echo "Starting server for Pyjail"
 cd /vagrant/flags/pyjail; /vagrant/flags/pyjail/run-pj &
 
+# Starting clash of titans server
+echo "Starting server for Clash of Titans"
+/vagrant/servers/clash-of-titans/server.py &
+
+echo "Starting server for HLE"
+/vagrant/servers/hle/server.py &
+
+echo "Starting server for Poison IV"
+/vagrant/servers/poison-iv/server.py &
 
 # Starting formatstring server
 echo "Starting server for Formatstring"

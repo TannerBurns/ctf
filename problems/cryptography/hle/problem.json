@@ -1,0 +1,9 @@
+{"name": "HLE",
+ "score": 40,
+ "category": "Cryptography",
+ "grader": "cryptography/hle/grader.py",
+ "description": "We have found one authorized message: 'c974b779d095f5772a36e2139276ffdc testing connection'.<br/>Can you find another authorized message and send it to nc 192.168.3.5 41300. <br/><br/>-------------------------------<br/>buf = c.recv(4096)<br/>digest, msg = buf.split('' '', 1)<br/>if (digest == md5(password+msg).hexdigest()):<br/>#here I send a secret<br/>else:<br/>c.send(''Wrong signature'')<br/>-------------------------------",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Can you extend on this?"
+}

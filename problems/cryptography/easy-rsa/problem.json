@@ -2,7 +2,7 @@
  "score": 100,
  "category": "Cryptography",
  "grader": "cryptography/easy-rsa/grader.py",
- "description": "We encrypted the flag with rsa. Can you crack it? <a target=_blank href='/problem-static/cryptography/easy-rsa/easy-rsa.tar.gz'>files</a>?",
+ "description": "We encrypted the flag with rsa. Can you crack it? <a target=_blank href='/problem-static/cryptography/easy-rsa/easy-rsa.tar.gz'>files</a>",
  "threshold": 0,
  "weightmap": {},
  "hint": "Short public key"}
