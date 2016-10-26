@@ -11,4 +11,4 @@ import signal, subprocess, sys
 
 #signal.alarm(2)
 cmd = './questions.py'
-subprocess.Popen(['/usr/bin/python','./secret.py']).communicate()
+subprocess.Popen(['/usr/bin/python','/vagrant/servers/poison-iv/secret.py']).communicate()

@@ -51,6 +51,9 @@ service nginx restart
 cd /home/vagrant/api;python3 api_manager.py problems load /vagrant/problems/ graders/ ../problem_static/
 cd /home/vagrant/api;python3 api_manager.py autogen build 100
 
+#set up crontab
+crontab /vagrant/scripts/vagrant_cron
+
 #deploy site
 /home/vagrant/scripts/devploy
 
