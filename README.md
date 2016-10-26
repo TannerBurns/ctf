@@ -42,10 +42,11 @@ Step 3) (If it is first time using 'vagrant up') Register with the site
 
 Step 4) To go into vagrant vm
 
-			$vagrant ssh (does not work on windows-use program like putty)
+		$vagrant ssh (does not work on windows-use program like putty)
 
 #Anytime you start vm(ctf) after install
 You must go into the vm via ssh or vb manager and run 'devploy' inside the machine. This will start the services for the website.
+	
 	$echo 'devploy' | vagrant ssh
 
 
