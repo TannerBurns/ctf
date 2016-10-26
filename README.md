@@ -47,7 +47,7 @@ Step 4) To go into vagrant vm
 #Anytime you start vm(ctf) after install
 You must go into the vm via ssh or vb manager and run 'devploy' inside the machine. This will start the services for the website.
 	
-	$echo 'devploy' | vagrant ssh
+		$echo 'devploy' | vagrant ssh
 
 
 #If install fails (IMPORTANT)
