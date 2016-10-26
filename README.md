@@ -62,7 +62,8 @@ You must go into the vm via ssh or vb manager and run 'devploy' inside the machi
 
 		5) Windows users - there could be a ssh timeout that could be caused from a firewall blocking the ssh connection (try turning off firewall software)
 
-#Useful Commands
+#Useful vagrant commands(ouside vm)
+
 	$vagrant up -> start the vm
 
 	$vagrant ssh -> ssh into the virtual machine (if in windows, easier to use virtualbox vm)
@@ -71,9 +72,9 @@ You must go into the vm via ssh or vb manager and run 'devploy' inside the machi
 
 	$vagrant destroy -> destroys vm, removes all vm files
 
-	$devploy -> builds the website
+#Useful platform commands(inside vm)
 
-	$launch -> starts servers (leave terminal open)
+	$devploy -> builds the website
 
 	$genprob -> erases current problems from database and regenerates the old and new problems
 
