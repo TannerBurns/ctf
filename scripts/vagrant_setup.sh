@@ -44,6 +44,11 @@ rm /etc/nginx/sites-enabled/default
 mkdir -p /srv/http/ctf
 service nginx restart
 
+#set up devploy in rc.local
+echo '#!/bin/bash' > /etc/rc.local
+echo '/vagrant/scripts/devploy' >> /etc/rc.local
+echo 'exit 0' >> /etc/rc.local
+
 #deploy site
 /home/vagrant/scripts/devploy
 
