@@ -22,4 +22,5 @@
 # m h  dom mon dow   command
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/scripts
 
-*/1 * * * * /vagrant/scripts/security/launch.sh > /vagrant/cronlogs/ctf-servers.log 2>&1
+
+ 

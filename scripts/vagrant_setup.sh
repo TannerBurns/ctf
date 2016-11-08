@@ -53,7 +53,6 @@ echo 'exit 0' >> /etc/rc.local
 
 #for security
 mkdir /ctf
-touch /vagrant/scripts/security/launch.sh
 touch /vagrant/scripts/security/results.txt
 /vagrant/scripts/security/security.py
 
@@ -65,7 +64,7 @@ cd /home/vagrant/api;python3 api_manager.py problems load /vagrant/problems/ gra
 cd /home/vagrant/api;python3 api_manager.py autogen build 100
 
 #set up crontab
-crontab /vagrant/scripts/vagrant_cron
+crontab /vagrant/scripts/security/vagrant_cron
 
 #deploy site
 /home/vagrant/scripts/devploy
