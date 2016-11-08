@@ -18,6 +18,7 @@ apt-get -y install ruby-dev
 apt-get -y install dos2unix
 apt-get -y install tmux
 apt-get -y install openjdk-7-jdk
+apt-get -y install python-pip
 #fix for mac
 apt-get -y install ruby2.0
 apt-get -y install ruby2.0-dev
@@ -28,6 +29,7 @@ npm install -g coffee-script
 npm install -g react-tools
 npm install -g jsxhint
 
+pip install RandomWords
 pip3 install -r /home/vagrant/api/requirements.txt
 
 # Jekyll
@@ -48,6 +50,12 @@ service nginx restart
 echo '#!/bin/bash' > /etc/rc.local
 echo '/vagrant/scripts/devploy' >> /etc/rc.local
 echo 'exit 0' >> /etc/rc.local
+
+#for security
+mkdir /ctf
+touch /vagrant/scripts/security/launch.sh
+touch /vagrant/scripts/security/results.txt
+/vagrant/scripts/security/security.py
 
 #deploy site
 /home/vagrant/scripts/devploy

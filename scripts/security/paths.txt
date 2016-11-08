@@ -1,0 +1,8 @@
+/vagrant/servers/format-string/.,/vagrant/flags/formatstring/flag.txt,/vagrant/flags/run-fs
+/vagrant/servers/pyjail/.,/vagrant/flags/pyjail/flag.txt,/vagrant/flags/run-pj
+/vagrant/servers/race/.,none,none
+/vagrant/servers/hackerlvl/.,none,none
+/vagrant/servers/stolen-pw/.,none,none
+/vagrant/servers/clash-of-titans/.,none,none
+/vagrant/servers/hle/.,none,none
+/vagrant/servers/poison-iv/.,none,none

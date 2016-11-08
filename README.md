@@ -36,7 +36,11 @@ Step 1) In terminal,inside the ctf-master:
 
 		$vagrant up --provider virtualbox
 
-Step 2) Go to 127.0.0.1:8080 in the browser
+Step 2) (refresh vm and start cronjobs) 
+		
+		$vagrant reload
+
+Step 3) Go to 127.0.0.1:8080 in the browser
 
 Step 3) (If it is first time using 'vagrant up') Register with the site
 
@@ -44,10 +48,9 @@ Step 4) To go into vagrant vm
 
 		$vagrant ssh (does not work on windows-use program like putty)
 
-#Anytime you start vm(ctf) after install
-You must go into the vm via ssh or vb manager and run 'devploy' inside the machine. This will start the services for the website.
-	
-		$echo 'devploy' | vagrant ssh
+#Anytime you want to start vm(ctf) after install
+
+		$vagrant up
 
 
 #If install fails (IMPORTANT)

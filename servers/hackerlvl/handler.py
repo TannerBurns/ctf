@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import signal, subprocess, sys
+import signal, subprocess, sys, os
 
 #def signal_handler(signal, frame):
 #   print "In handler"
@@ -10,5 +10,6 @@ import signal, subprocess, sys
     #signal.alarm(5)
 
 #signal.alarm(2)
-cmd = './questions.py'
-subprocess.Popen(['/usr/bin/python','/vagrant/servers/hackerlvl/questions.py']).communicate()
+tmpc = os.path.dirname(__file__)
+tmpc+='/questions.py'
+subprocess.Popen(['/usr/bin/python',tmpc]).communicate()

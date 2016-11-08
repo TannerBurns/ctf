@@ -1,14 +1,16 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import SocketServer, subprocess
+import SocketServer, subprocess, os
 
 class ClientHandler(SocketServer.BaseRequestHandler):
     def handle(self):
         fd = self.request.fileno()
         while True:
             data = self.request.recv(4096)
-            cmd = ['/vagrant/servers/format-string/bin/fs']+ [data]
+            tmpc = os.path.dirname(__file__)
+            tmpc+='/fs'
+            cmd = [tmpc] + [data]
             subprocess.Popen(cmd, stdin=fd, stdout=fd, stderr=fd).communicate()
 
 if __name__ == "__main__":

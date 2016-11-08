@@ -1,0 +1,7 @@
+---
+title:  "Ctf is active"
+date:   2016-11-03 
+categories: ctfs awesome
+---
+
+Ctf is currently active.

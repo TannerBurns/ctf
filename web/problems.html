@@ -58,8 +58,7 @@ startup_functions:
                     </li>
                     <li><a href="#<%= pill.hintId %>" data-toggle="tab" class="hint-tab-button" data-pid="<%= problem.pid %>">Hint</a>
                     </li>
-                    <li class="<%= pill.reviewClassName %>"><a href="#<%= pill.reviewId %>" data-toggle="tab">Review</a>
-                    </li>
+                    
                 </ul>
                 <div class="tab-content">
                     <div class="tab-pane <%= pill.solveClassName %>" id="<%= pill.solveId %>">
@@ -132,7 +131,7 @@ startup_functions:
     </table>
 </script>
 
-<script type="text/template" id="problem-review-template">
+<!--<script type="text/template" id="problem-review-template">
     <form class="form-horizontal problem-review-form" data-pid="<%= problem.pid %>">
         <% if(alreadyReviewed) { %>
         <div class="row">
@@ -201,7 +200,7 @@ startup_functions:
 
         </div>
     </form>
-</script>
+</script>-->
 
 <div class="container">
     <div id="problem-list-holder"></div>

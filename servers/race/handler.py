@@ -1,7 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import signal, subprocess
+import signal, subprocess, os
 
 signal.alarm(1)
-subprocess.Popen(['/usr/bin/python','/vagrant/servers/race/questions.py']).communicate()
+tmpc = os.path.dirname(__file__)
+tmpc+='/questions.py'
+subprocess.Popen(['/usr/bin/python',tmpc]).communicate()

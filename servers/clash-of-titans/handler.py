@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import signal, subprocess, sys
+import signal, subprocess, sys, os
 
 #def signal_handler(signal, frame):
 #   print "In handler"
@@ -10,4 +10,6 @@ import signal, subprocess, sys
     #signal.alarm(5)
 
 #signal.alarm(2)
-subprocess.Popen(['/usr/bin/node','/vagrant/servers/clash-of-titans/test.js']).communicate()
+tmpc = os.path.dirname(__file__)
+tmpc+='/test.js'
+subprocess.Popen(['/usr/bin/node',tmpc]).communicate()
