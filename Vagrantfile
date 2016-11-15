@@ -17,9 +17,9 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 8000, host: 8000, auto_correct: true
   config.vm.network :forwarded_port, guest: 27017, host: 27017, auto_correct: true
   config.vm.network :forwarded_port, guest: 1337, host: 1337, auto_correct: true
-  config.vm.synced_folder "api", "/home/vagrant/api"
-  config.vm.synced_folder "web", "/home/vagrant/web"
-  config.vm.synced_folder "scripts", "/home/vagrant/scripts"
+  config.vm.synced_folder "api", "/home/vagrant/api", :mount_options => ["dmode=775","fmode=755"]
+  config.vm.synced_folder "web", "/home/vagrant/web", :mount_options => ["dmode=775","fmode=755"]
+  config.vm.synced_folder "scripts", "/home/vagrant/scripts", :mount_options => ["dmode=775","fmode=755"]
   config.vm.provision :shell, :path => "scripts/vagrant_setup.sh"
   config.ssh.forward_agent = true
 

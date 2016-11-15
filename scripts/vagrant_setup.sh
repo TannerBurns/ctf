@@ -56,9 +56,6 @@ mkdir /ctf
 touch /vagrant/scripts/security/results.txt
 /vagrant/scripts/security/security.py
 
-#deploy site
-/home/vagrant/scripts/devploy
-
 #load problems
 cd /home/vagrant/api;python3 api_manager.py problems load /vagrant/problems/ graders/ ../problem_static/
 cd /home/vagrant/api;python3 api_manager.py autogen build 100
