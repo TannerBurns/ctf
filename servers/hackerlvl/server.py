@@ -7,7 +7,7 @@ class ClientHandler(SocketServer.BaseRequestHandler):
 
      def handle(self):
          fd = self.request.fileno()
-         tmpc = os.path.dirname(__file__)
+         tmpc = os.getcwd()
          tmpc+='/handler.py'
          subprocess.Popen(['/usr/bin/python',tmpc], stdin=fd, stdout=fd, stderr=fd).communicate()
 

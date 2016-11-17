@@ -10,6 +10,6 @@ import signal, subprocess, sys, os
     #signal.alarm(5)
 
 #signal.alarm(2)
-tmpc = os.path.dirname(__file__)
+tmpc = os.getcwd()
 tmpc+='/questions.py'
 subprocess.Popen(['/usr/bin/python',tmpc]).communicate()
