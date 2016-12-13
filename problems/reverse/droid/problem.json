@@ -1,0 +1,8 @@
+{"name": "Droid",
+ "score": 50,
+ "category": "Reverse",
+ "grader": "reverse/droid/grader.py",
+ "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/droid/ReverseMe.apk'>file?</a> You might need this <a target=_blank href='/problem-static/reverse/droid/tools.zip'>tool.</a> <br> Here is the format for the final flag: FLAG{..}, put the flag you find inside the braces. ",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Tools are helpful"}

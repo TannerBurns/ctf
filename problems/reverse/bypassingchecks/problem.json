@@ -1,0 +1,8 @@
+{"name": "ByPassingChecks",
+ "score": 60,
+ "category": "Reverse",
+ "grader": "reverse/bypassingchecks/grader.py",
+ "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/bypassingchecks/BypassingChecks'>file?</a> <br> Here is the format for the final flag: FLAG{..}, put the flag you find inside the braces. ",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Gdb is amazing"}
