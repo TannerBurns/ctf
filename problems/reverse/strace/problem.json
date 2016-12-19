@@ -1,0 +1,8 @@
+{"name": "Traced",
+ "score": 40,
+ "category": "Reverse",
+ "grader": "reverse/strace/grader.py",
+ "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/strace/insanity'>file?</a>",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Disassemblers are great"}

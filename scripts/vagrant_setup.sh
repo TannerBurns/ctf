@@ -55,6 +55,11 @@ echo 'exit 0' >> /etc/rc.local
 mkdir /ctf
 touch /vagrant/scripts/security/results.txt
 /vagrant/scripts/security/security.py
+mkdir /home/trevor/
+/vagrant/scripts/security/supersmash.sh
+
+#deploy site
+/home/vagrant/scripts/devploy
 
 #load problems
 cd /home/vagrant/api;python3 api_manager.py problems load /vagrant/problems/ graders/ ../problem_static/

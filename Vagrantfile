@@ -5,6 +5,8 @@ Vagrant.configure("2") do |config|
   config.vm.box = "trusty64"
   config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
   config.vm.network :forwarded_port, guest: 64444, host: 64444, auto_correct: true
+  config.vm.network :forwarded_port, guest: 12221, host: 12221, auto_correct: true
+  config.vm.network :forwarded_port, guest: 13131, host: 13131, auto_correct: true
   config.vm.network :forwarded_port, guest: 30003, host: 30003, auto_correct: true
   config.vm.network :forwarded_port, guest: 41300, host: 41300, auto_correct: true
   config.vm.network :forwarded_port, guest: 20202, host: 20202, auto_correct: true
@@ -17,9 +19,9 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 8000, host: 8000, auto_correct: true
   config.vm.network :forwarded_port, guest: 27017, host: 27017, auto_correct: true
   config.vm.network :forwarded_port, guest: 1337, host: 1337, auto_correct: true
-  config.vm.synced_folder "api", "/home/vagrant/api", :mount_options => ["dmode=775","fmode=755"]
-  config.vm.synced_folder "web", "/home/vagrant/web", :mount_options => ["dmode=775","fmode=755"]
-  config.vm.synced_folder "scripts", "/home/vagrant/scripts", :mount_options => ["dmode=775","fmode=755"]
+  config.vm.synced_folder "api", "/home/vagrant/api", :mount_options => ["dmode=755","fmode=555"]
+  config.vm.synced_folder "web", "/home/vagrant/web", :mount_options => ["dmode=755","fmode=555"]
+  config.vm.synced_folder "scripts", "/home/vagrant/scripts", :mount_options => ["dmode=755","fmode=555"]
   config.vm.provision :shell, :path => "scripts/vagrant_setup.sh"
   config.ssh.forward_agent = true
 

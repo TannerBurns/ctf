@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/ctf/safeguard/home/server.py", line 18, in <module>
+    server = SocketServer.ThreadingTCPServer((HOST, PORT), ClientHandler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use

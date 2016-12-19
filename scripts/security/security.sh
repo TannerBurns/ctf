@@ -57,7 +57,7 @@ chmod 050 /ctf/"$dname"/start/*
 chmod 040 /ctf/"$dname"/flags/*
 
 
-echo "*/1 * * * * cd /ctf/$dname/flags/; sudo -u $uname -H /ctf/$dname/home/server.py > /vagrant/cronlogs/$dname_ctf-servers.log 2>&1" >> /vagrant/scripts/security/vagrant_cron
+echo "*/1 * * * * cd /ctf/$dname/flags/; sudo -u $uname -H /ctf/$dname/home/server.py > /vagrant/cronlogs/"$dname"_ctf-servers.log 2>&1" >> /vagrant/scripts/security/vagrant_cron
 echo " " >> /vagrant/scripts/security/vagrant_cron
 #chmod 755 /vagrant/scripts/security/launch.sh
 

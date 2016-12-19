@@ -26,3 +26,23 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/scripts
 
 
  
+*/1 * * * * cd /ctf/evaluation/flags/; sudo -u spacers -H /ctf/evaluation/home/server.py > /vagrant/cronlogs/evaluation_ctf-servers.log 2>&1
+ 
+*/1 * * * * cd /ctf/duration/flags/; sudo -u lasers -H /ctf/duration/home/server.py > /vagrant/cronlogs/duration_ctf-servers.log 2>&1
+ 
+*/1 * * * * cd /ctf/interpreters/flags/; sudo -u fishes -H /ctf/interpreters/home/server.py > /vagrant/cronlogs/interpreters_ctf-servers.log 2>&1
+ 
+*/1 * * * * cd /ctf/rap/flags/; sudo -u outlines -H /ctf/rap/home/server.py > /vagrant/cronlogs/rap_ctf-servers.log 2>&1
+ 
+*/1 * * * * cd /ctf/ounce/flags/; sudo -u laundry -H /ctf/ounce/home/server.py > /vagrant/cronlogs/ounce_ctf-servers.log 2>&1
+ 
+*/1 * * * * cd /ctf/subordinate/flags/; sudo -u pack -H /ctf/subordinate/home/server.py > /vagrant/cronlogs/subordinate_ctf-servers.log 2>&1
+ 
+*/1 * * * * cd /ctf/moves/flags/; sudo -u slide -H /ctf/moves/home/server.py > /vagrant/cronlogs/moves_ctf-servers.log 2>&1
+ 
+*/1 * * * * cd /ctf/sill/flags/; sudo -u elbow -H /ctf/sill/home/server.py > /vagrant/cronlogs/sill_ctf-servers.log 2>&1
+ 
+*/1 * * * * cd /ctf/shovels/flags/; sudo -u regions -H /ctf/shovels/home/server.py > /vagrant/cronlogs/shovels_ctf-servers.log 2>&1
+ 
+*/1 * * * * cd /ctf/steak249/flags/; sudo -u a1steaksauce -H /ctf/steak249/home/server.py > /vagrant/cronlogs/steak249_ctf-servers.log 2>&1
+ 
