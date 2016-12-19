@@ -1,0 +1,8 @@
+{"name": "Inspection",
+ "score": 100,
+ "category": "Forensics",
+ "grader": "web/Html_inspection/grader.py",
+ "description": "<a target=_blank href='/problem-static/web/hmtl_inspection/home.html'>text file</a>?",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Use developer tools"}

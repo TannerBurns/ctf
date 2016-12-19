@@ -1,0 +1,8 @@
+{"name": "Inspection II",
+ "score": 100,
+ "category": "Web",
+ "grader": "web/Medium_html_inspection/grader.py",
+ "description": "Can you correct this html?",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "You will need to write a script"}

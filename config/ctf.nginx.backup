@@ -1,6 +1,6 @@
 server {
         server_name ctf;
-        listen       80 default_server;
+        listen       80;
         root   /srv/http/ctf;
 
 	error_page 404  =  /404.html;

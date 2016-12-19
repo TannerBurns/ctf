@@ -1,0 +1,8 @@
+{"name": "PHP overwrite",
+ "score": 100,
+ "category": "Web",
+ "grader": "web/PHPoverwrite/grader.py",
+ "description": "Submit the correct password. http://127.0.0.1:10800s/",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Send a POST variable"}

@@ -1,0 +1,8 @@
+{"name": "SQLi",
+ "score": 100,
+ "category": "Web",
+ "grader": "web/SQLi/grader.py",
+ "description": "Can you log into the system? http://127.0.0.1:10811/",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "There is a databse storing login information, maybe it can be injected."}

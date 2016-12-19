@@ -1,0 +1,8 @@
+{"name": "PHP execute",
+ "score": 100,
+ "category": "Web",
+ "grader": "web/PHPexecute/grader.py",
+ "description": "Search and replace complex terms with regular expressions. Go to http://127.0.0.1:10810/",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "preg_replace()"}
