@@ -25,10 +25,11 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "api", "/home/vagrant/api", :mount_options => ["dmode=755","fmode=555"]
   config.vm.synced_folder "web", "/home/vagrant/web", :mount_options => ["dmode=755","fmode=555"]
   config.vm.synced_folder "scripts", "/home/vagrant/scripts", :mount_options => ["dmode=755","fmode=555"]
+  config.vm.synced_folder "problems", "/home/vagrant/problems", :mount_options => ["dmode=755","fmode=555"]
   config.vm.provision :shell, :path => "scripts/vagrant_setup.sh"
   config.ssh.forward_agent = true
 
   config.vm.provider "virtualbox" do |vb|
-    vb.customize ["modifyvm", :id, "--memory", "2048"]
+    vb.customize ["modifyvm", :id, "--memory", "1024"]
   end
 end
