@@ -69,7 +69,6 @@ pip3 install -r /vagrant/api/requirements.txt
 gem install jekyll-import
 
 echo "======================== Configure Etc Files========================"
-
 cp -f /vagrant/config/passwd /etc/passwd
 cp -f /vagrant/config/group /etc/group
 cp -f /vagrant/config/shadow /etc/shadow
@@ -130,4 +129,5 @@ echo "======================== Configure Cron ========================"
 crontab /home/vagrant/vagrant_cron
 
 echo "======================== All Done ! ========================"
+apt-get clean
 rm -f /root/.bash_history /root/.history
