@@ -2,7 +2,7 @@
  "score": 30,
  "category": "Coding",
  "grader": "coding/race/grader.py",
- "description": "Race me at: nc 127.0.0.1 19999",
+ "description": "Race me at: nc 127.0.0.1 19999 <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "The proper tools must be used to pwn this race."}
+ "hint": "The proper tools must be used to win this race."}

@@ -1,8 +1,8 @@
 {"name": "Tabs and Spaces",
- "score": 100,
+ "score": 60,
  "category": "Forensics",
  "grader": "forensics/Steno_C/grader.py",
- "description": "You should alwasy check your whitespace. Compile the code and see the results. Modify as needed.<a target=_blank href='/problem-static/forensics/Steno_C/secret.c'>given file</a>?",
+ "description": "You should alwasy check your whitespace. Compile the code and see the results. Modify as needed. <a target=_blank href='/problem-static/forensics/Steno_C/secret.c'>given file</a>? <br/>The flag looks like flag{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "Use a better text editor than vim or IDEs' like ecplipse/codeblocks. Recommended: sublimetext"}

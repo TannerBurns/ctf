@@ -1,7 +1,7 @@
 server {
     listen 10810;
 
-    root /usr/share/nginx/sites/site2/PHPexecute;
+    root /srv/http/site2/PHPexecute;
     index index.php index.html index.htm;
 
     location / {

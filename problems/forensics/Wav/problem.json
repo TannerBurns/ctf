@@ -1,8 +1,8 @@
 {"name": "Messages in sound",
- "score": 100,
+ "score": 80,
  "category": "Forensics",
  "grader": "forensics/Wav/grader.py",
- "description": "Is there anything inside of this <a target=_blank href='/problem-static/forensics/Wav/Rolled.wav'>sound file</a>?",
+ "description": "Is there anything inside of this <a target=_blank href='/problem-static/forensics/Wav/Rolled.wav'>sound file</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Use Sonic Vuslaizer of Audacity"}
+ "hint": "Use Sonic Vuslaizer."}

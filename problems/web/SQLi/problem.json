@@ -1,8 +1,8 @@
 {"name": "SQLi",
- "score": 100,
+ "score": 60,
  "category": "Web",
  "grader": "web/SQLi/grader.py",
- "description": "Can you log into the system? http://127.0.0.1:10811/",
+ "description": "Can you log into the system? <a target=_blank href='http://127.0.0.1:10811/'>http://127.0.0.1:10811/</a> <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "There is a databse storing login information, maybe it can be injected."}

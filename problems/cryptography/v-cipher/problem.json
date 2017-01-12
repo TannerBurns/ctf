@@ -2,7 +2,7 @@
  "score": 50,
  "category": "Cryptography",
  "grader": "cryptography/v-cipher/grader.py",
- "description": "Can you find the flag in this <a target=_blank href='/problem-static/cryptography/v-cipher/vfile.enc'>encrypted file</a>?",
+ "description": "Can you find the flag in this <a target=_blank href='/problem-static/cryptography/v-cipher/vfile.enc'>encrypted file</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "Frequency"}

@@ -1,6 +1,6 @@
 def grade(arg, key):
-    if "FLAG{Key-Is-dUs1mKl4\033[3}" in key:
+    if "flag{_6dectwojs6gt:g:_?}" in key:
         return True, "Correct"
     else:
-        return False, "Incorrect
+        return False, "Incorrect"
 

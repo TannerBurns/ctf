@@ -2,7 +2,7 @@
  "score": 50,
  "category": "Coding",
  "grader": "coding/gcta/grader.py",
- "description": "Can you find the flag in this <a target=_blank href='/problem-static/coding/gcta/given.txt'>text file</a>?",
+ "description": "Can you find the flag in this <a target=_blank href='/problem-static/coding/gcta/given.txt'>text file</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "That is a lot of text, maybe a script would help. Or 8."}

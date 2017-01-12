@@ -1,7 +1,7 @@
 server {
     listen 10811;
 
-    root /usr/share/nginx/sites/site3/SQLi;
+    root /srv/http/site3/SQLi;
     index index.php index.html index.htm injectable.html;
 
     location / {

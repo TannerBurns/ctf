@@ -1,8 +1,8 @@
 {"name": "Inspection",
- "score": 100,
- "category": "Forensics",
+ "score": 20,
+ "category": "Web",
  "grader": "web/Html_inspection/grader.py",
- "description": "<a target=_blank href='/problem-static/web/hmtl_inspection/home.html'>text file</a>?",
+ "description": "<a target=_blank href='/problem-static/web/Html_inspection/home.html'>text file</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "Use developer tools"}

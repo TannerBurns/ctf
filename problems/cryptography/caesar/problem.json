@@ -2,7 +2,7 @@
  "score": 30,
  "category": "Cryptography",
  "grader": "cryptography/caesar/grader.py",
- "description": "Can you find the flag in this <a target=_blank href='/problem-static/cryptography/caesar/file.enc'>encrypted file</a>?",
+ "description": "Can you find the flag in this <a target=_blank href='/problem-static/cryptography/caesar/file.enc'>encrypted file</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "There are two ingredients in this salad."}

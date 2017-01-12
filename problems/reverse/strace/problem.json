@@ -1,8 +1,8 @@
 {"name": "Traced",
- "score": 40,
+ "score": 30,
  "category": "Reverse",
  "grader": "reverse/strace/grader.py",
- "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/strace/insanity'>file?</a>",
+ "description": "<a target=_blank href='/problem-static/reverse/strace/insanity'>try me</a> <br/>The flag is FLAG{secondsofsleep}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Disassemblers are great"}
+ "hint": "Traces are great"}

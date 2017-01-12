@@ -2,7 +2,7 @@
  "score": 20,
  "category": "Cryptography",
  "grader": "cryptography/messy-aes/grader.py",
- "description": "We were playing around with aes encryption and lost our flag in this <a target=_blank href='/problem-static/cryptography/messy-aes/given.txt'>file</a>? This is all we know: po6vko2hb574zjwxurkayebnio33mnmuhwhhvtwk2tlqsghnasyb2kfmzu7ckz7lrvcabdsmisereryubq",
+ "description": "We were playing around with aes encryption and lost our flag in this <a target=_blank href='/problem-static/cryptography/messy-aes/given.txt'>file</a>? This is all we know: po6vko2hb574zjwxurkayebnio33mnmuhwhhvtwk2tlqsghnasyb2kfmzu7ckz7lrvcabdsmisereryubq <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": ""}

@@ -14,7 +14,7 @@ def generate(random, pid, autogen_tools, n):
     rendered_template_path = path.join(generator_path, "website.html")
 
     key = "my_key_here"
-    flag = "flag_" + sha1((str(n) + key).encode('utf-8')).hexdigest()
+    flag = "FLAG{" + sha1((str(n) + key).encode('utf-8')).hexdigest() + "}"
 
     autogen_tools.replace_source_tokens(
         template_path,
@@ -33,6 +33,6 @@ def generate(random, pid, autogen_tools, n):
         "static_files": {
         },
         "problem_updates": {
-            "description": "Have you seen this %s? Maybe something is hidden there..." % homepage_link
+            "description": "Have you seen this %s? Maybe something is hidden there..." % homepage_link + "<br/>The flag looks like FLAG{......}."
         }
     }

@@ -1,6 +1,6 @@
 def grade(arg, key):
     if "FLAG{y&oES42_gsf$moew}" in key:
-        return True
+        return True, "Good job!"
     else:
-        return False
+        return False, "Oops. Try again!"
 

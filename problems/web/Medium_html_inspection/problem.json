@@ -1,8 +1,8 @@
 {"name": "Inspection II",
- "score": 100,
+ "score": 40,
  "category": "Web",
  "grader": "web/Medium_html_inspection/grader.py",
- "description": "Can you correct this html? <a target=_blank href='/problem-static/web/Medium_hmtl_inspection/inspection.html'>link</a>",
+ "description": "Can you correct this html? <a target=_blank href='/problem-static/web/Medium_html_inspection/inspection.html'>link</a> <br/>The flag looks like FLAG{this...}",
  "threshold": 0,
  "weightmap": {},
  "hint": "You will need to write a script"}

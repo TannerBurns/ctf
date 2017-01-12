@@ -2,7 +2,7 @@
  "score": 70,
  "category": "Reverse",
  "grader": "reverse/lostpassword/grader.py",
- "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/lostpassword/GIFT.exe'>file?</a>",
+ "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/lostpassword/GIFT.exe'>file?</a> <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "Disassemblers are great"}

@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Transpile the CoffeeScript files
-echo "Transpiling Coffeescript"
-coffee -c -o /home/vagrant/web/js/ /home/vagrant/web/coffee/
-
 # Shutdown the server
 echo "Shutting down nginx"
 sudo service nginx stop
+
+# Transpile the CoffeeScript files
+echo "Transpiling Coffeescript"
+coffee -c -o /home/vagrant/web/js/ /home/vagrant/web/coffee/
 
 # Clean out the old files
 echo "Cleaning up old files"
@@ -17,9 +17,17 @@ cd /home/vagrant/web
 sudo jekyll build
 
 echo "Copying files to server"
-#sudo cp -r /home/vagrant/web/* /srv/http/ctf/
+sudo cp -r /home/vagrant/web/build/* /srv/http/ctf/
+
+#load problems
+echo "Load problems"
+rm -rf /home/vagrant/problem_static
 mkdir -p /home/vagrant/problem_static
-sudo cp -r /home/vagrant/problem_static /srv/http/ctf/problem-static
+cd /home/vagrant/api; python3 api_manager.py problems load /home/vagrant/problems/ graders/ ../problem_static/
+cd /home/vagrant/api; python3 api_manager.py autogen build 100
+sudo rm -rf /srv/http/ctf/problem-static
+sudo cp -R /home/vagrant/problem_static /srv/http/ctf/problem-static
+rm -rf /home/vagrant/problem_static
 
 # Make sure everything is in UNIX format.
 sudo dos2unix -q /srv/http/ctf/*.html

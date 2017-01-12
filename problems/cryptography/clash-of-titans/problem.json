@@ -2,7 +2,7 @@
  "score": 70,
  "category": "Cryptography",
  "grader": "cryptography/clash-of-titans/grader.py",
- "description": "Can you log into our application and retrieve the flag? Here is the <a target=_blank href='/problem-static/cryptography/clash-of-titans/logic'>logic</a>. </br> Connect at 127.0.0.1 3003",
+ "description": "Can you log into our application and retrieve the flag? Here is the <a target=_blank href='/problem-static/cryptography/clash-of-titans/logic'>logic</a>. nc 127.0.0.1 30003 <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "Can you collide your logic with ours?"}

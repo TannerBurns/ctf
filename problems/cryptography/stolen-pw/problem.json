@@ -2,7 +2,7 @@
  "score": 20,
  "category": "Cryptography",
  "grader": "cryptography/stolen-pw/grader.py",
- "description": "Can you crack a password for me, if I can log on I will give you the flag. Connect here: nc 127.0.0.1 20202",
+ "description": "Can you crack a password for me, if I can log on I will give you the flag. Connect here: nc 127.0.0.1 20202 <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Luckily this person wasn't salty."}
+ "hint": "Luckily these 5 MaD people weren't salty."}

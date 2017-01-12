@@ -2,7 +2,7 @@
  "score": 20,
  "category": "Reverse",
  "grader": "reverse/doyouknowstrings/grader.py",
- "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/doyouknowstrings/insanity'>file?</a>",
+ "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/doyouknowstrings/insanity'>file?</a> <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "Strings,Strings, more Strings"}

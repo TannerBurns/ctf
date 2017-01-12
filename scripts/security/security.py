@@ -22,7 +22,7 @@ rw = RandomWords()
 
 with open ("/vagrant/scripts/security/paths.txt", "r") as file1:
 	for line in file1:
-		list1=line.split(',')
+		list1=line.strip('\n').split(',')
 		list2.append(list1)
 		groupname = rw.random_word()
 		dname = rw.random_word()
@@ -38,6 +38,3 @@ while x < len(list2):
 	cmd = ['/vagrant/scripts/security/security.sh']+ list4[x] + list2[x] + [str(groupnumber[x])]
 	subprocess.call(cmd)
 	x+=1
-
-
-#subprocess.Popen(cmd

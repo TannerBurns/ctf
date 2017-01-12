@@ -1,0 +1,10 @@
+server {
+    listen 10808;
+
+    root /srv/http/site4/JSFiddle;
+
+    location / {
+        default_type text/html;
+        index  index.html;
+    }
+}

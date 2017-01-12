@@ -1,5 +1,5 @@
 def grade(arg, key):
-    if "FLAG{you_got_dat_flag}" in key:
-        return True
+    if "FLAG{inj3cti0n_1s_bad_a55}" in key:
+        return True, "Good job!"
     else:
-        return False
+        return False, "Oops, try again!"

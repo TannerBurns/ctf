@@ -2,7 +2,7 @@
  "score": 50,
  "category": "Forensics",
  "grader": "forensics/HiddenFileJPG/grader.py",
- "description": "Sometimes a file is used to hide other files. Is there anything in this <a target=_blank href='/problem-static/forensics/HiddenFileJPG/Spurs.jpg'> image</a>?",
+ "description": "Sometimes a file is used to hide other files. Is there anything in this <a target=_blank href='/problem-static/forensics/HiddenFileJPG/Spurs.jpg'> image</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "Try comparing it to the original"}

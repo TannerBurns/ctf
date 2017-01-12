@@ -1,8 +1,8 @@
 {"name": "Captured packets",
- "score": 50,
+ "score": 40,
  "category": "Forensics",
  "grader": "forensics/Pcap/grader.py",
- "description": "Search through the web traffic <a target=_blank href='/problem-static/forensics/PDcap/dump.pcap'>pcap file</a>.",
+ "description": "Search through the web traffic <a target=_blank href='/problem-static/forensics/Pcap/dump.pcap'>pcap file</a>. <br/>The flag looks like FLAG{Key...}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Use Wireshark"}
+ "hint": "Shark bites"}

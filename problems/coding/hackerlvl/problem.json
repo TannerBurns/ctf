@@ -2,7 +2,7 @@
  "score": 40,
  "category": "Coding",
  "grader": "coding/hackerlvl/grader.py",
- "description": "Find your hacker level: nc 127.0.0.1 11111",
+ "description": "Find your hacker level: nc 127.0.0.1 11111 <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
  "hint": "Only a true hacker can pwn this."}

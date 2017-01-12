@@ -10,7 +10,7 @@ var keylength = // some number here;
 app.post('/login', function (req, res) {
 	var username = req.body.username;
 	var password = req.body.password;
-	if (username !== ‘boko’) {
+	if (username !== 'boko') {
 		res.send('Username is wrong');
 		return;
 	}

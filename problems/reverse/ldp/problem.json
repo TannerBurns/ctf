@@ -1,8 +1,8 @@
 {"name": "LDP",
- "score": 80,
+ "score": 100,
  "category": "Reverse",
  "grader": "reverse/ldp/grader.py",
- "description": "Can you get to the flag in this <a target=_blank href='/problem-static/reverse/ldp/ldp.elf'>file?</a> <br> Here is the format for the final flag: FLAG{..}, put the flag you find inside the braces. ",
+ "description": "Can you get to the flag in this <a target=_blank href='/problem-static/reverse/ldp/ldp.elf'>file?</a> <br/> The flag looks like FLAG{p4u......}",
  "threshold": 0,
  "weightmap": {},
  "hint": "GLIBC is weak"}
