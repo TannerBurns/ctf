@@ -11,7 +11,7 @@ Linux/OS X Users:
 		b. Find the green "Clone or download" button at the top right corner of the page.
 		c. Click the button and copy the web URL that is displayed in the box.
 		d. Open a terminal and choose the directory that you want to clone into.
-		e. Now, by using the command "$git clone <https URL>", you will create a local remote repository.
+		e. Now, by using the command "$git clone https://github.com/TannerBurns/ctf.git", you will create a local remote repository in directory "ctf".
 	
 	Option 2) Download ZIP - 
 	
@@ -86,10 +86,5 @@ Step 4) To go into vagrant vm
 If you update/add problems,
 
 	$genprob
-
-#Important
--After first time using 'vagrant up', you will have to 'vagrant ssh' into the system and run 'devploy' & 'launch'
-
--After the 'launch' command, the terminal being used will be unusable while running. If that terminal is closed, the servers are closed.
 
 Built on pico platform2
