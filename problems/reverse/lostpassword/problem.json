@@ -1,8 +1,8 @@
 {"name": "I Lost My Password",
- "score": 70,
+ "score": 50,
  "category": "Reverse",
  "grader": "reverse/lostpassword/grader.py",
  "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/lostpassword/GIFT.exe'>file?</a> <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Disassemblers are great"}
+ "hint": "Disassemblers are great. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/reverse/lostpassword/lostthepassword.part.pdf'>partial solution</a>."}

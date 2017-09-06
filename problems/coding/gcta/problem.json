@@ -5,4 +5,5 @@
  "description": "Can you find the flag in this <a target=_blank href='/problem-static/coding/gcta/given.txt'>text file</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "That is a lot of text, maybe a script would help. Or 8."}
+ "hint": "That is a lot of text, maybe a script would help. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/coding/gcta/gotta-catch-em-all.part.pdf'>partial solution</a>."
+ }

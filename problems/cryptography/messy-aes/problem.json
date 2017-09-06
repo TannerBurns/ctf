@@ -1,8 +1,8 @@
 {"name": "Messy Aes",
- "score": 20,
+ "score": 30,
  "category": "Cryptography",
  "grader": "cryptography/messy-aes/grader.py",
- "description": "We were playing around with aes encryption and lost our flag in this <a target=_blank href='/problem-static/cryptography/messy-aes/given.txt'>file</a>? This is all we know: po6vko2hb574zjwxurkayebnio33mnmuhwhhvtwk2tlqsghnasyb2kfmzu7ckz7lrvcabdsmisereryubq <br/>The flag looks like FLAG{......}.",
+ "description": "We were playing around with AES encryption and lost our flag in this <a target=_blank href='/problem-static/cryptography/messy-aes/given.txt'>file</a>? This is all we know: e220eb994c8fc16388dbd60a969d4953f042fc0bce25dbef573cf522636a1ba3fafa1a7c21ff824a5824c5dc4a376e75 <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": ""}
+ "hint": "Block. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/cryptography/messy-aes/messy-aes.part.pdf'>partial solution</a>."}

@@ -1,5 +1,5 @@
 {"name": "Hidden Message",
- "score": 20,
+ "score": 10,
  "category": "Web",
  "grader": "web/hidden-message/grader.py",
  "generator": "web/hidden-message/generator.py",
@@ -7,4 +7,4 @@
  "threshold": 0,
  "autogen": true,
  "weightmap": {},
- "hint": "How can you select what you cannot see?"}
+ "hint": "How can you select what you cannot see? <br></br>Still no clue? Read the <a target=_blank href='/problem-static/web/hidden-message/hidden-message.part.pdf'>partial solution</a>."}

@@ -5,4 +5,4 @@
  "description": "Just because there is a password doesnt't mean its secure. <a target=_blank href='/problem-static/forensics/PDFencrypted/encrypted.pdf'>given file</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "<a target=_blank href='/problem-static/forensics/PDFencrypted/dictionary.txt'>text file</a>"}
+ "hint": "<a target=_blank href='/problem-static/forensics/PDFencrypted/dictionary.txt'>text file</a>. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/forensics/PDFencrypted/canyoucrack.part.pdf'>partial solution</a>."}

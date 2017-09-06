@@ -5,4 +5,4 @@
  "description": "<a target=_blank href='/problem-static/web/Html_inspection/home.html'>text file</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Use developer tools"}
+ "hint": "Use developer tools. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/web/Html_inspection/inspectionI.part.pdf'>partial solution</a>."}

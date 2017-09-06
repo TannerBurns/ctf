@@ -5,4 +5,4 @@
  "description": "<a target=_blank href='/problem-static/reverse/strace/insanity'>try me</a> <br/>The flag is FLAG{secondsofsleep}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Traces are great"}
+ "hint": "Traces are great. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/reverse/strace/traced.part.pdf'>partial solution</a>."}

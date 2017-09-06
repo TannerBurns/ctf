@@ -1,8 +1,8 @@
-{"name": "ByPassingChecks",
+{"name": "Bypassing Checks",
  "score": 70,
  "category": "Reverse",
  "grader": "reverse/bypassingchecks/grader.py",
  "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/bypassingchecks/BypassingChecks'>file?</a> <br/> The flag looks like FLAG{flag_is_........!!!}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Gdb is amazing"}
+ "hint": "Gdb is amazing. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/reverse/bypassingchecks/bypassingchecks.part.pdf'>partial solution</a>."}

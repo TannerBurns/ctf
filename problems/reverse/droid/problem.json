@@ -5,4 +5,4 @@
  "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/droid/ReverseMe.apk'>file?</a> You might need this <a target=_blank href='/problem-static/reverse/droid/tools.zip'>tool.</a> <br/>The flag looks like FLAG{flag_w......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Tools are helpful"}
+ "hint": "Tools are helpful. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/reverse/droid/droid.part.pdf'>partial solution</a>."}

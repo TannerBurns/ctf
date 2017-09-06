@@ -5,4 +5,4 @@
  "description": "Can you find the flag in this <a target=_blank href='/problem-static/cryptography/caesar/file.enc'>encrypted file</a>? <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "There are two ingredients in this salad."}
+ "hint": "There are two ingredients in this salad. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/cryptography/caesar/super-old-cipher.part.pdf'>partial solution</a>."}

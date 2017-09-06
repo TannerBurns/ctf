@@ -5,4 +5,4 @@
  "description": "We encrypted the flag with rsa. Can you crack it? <a target=_blank href='/problem-static/cryptography/easy-rsa/easy-rsa.tar.gz'>files</a> <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Short public key"}
+ "hint": "Short public key.  <br></br>Still no clue? Read the <a target=_blank href='/problem-static/cryptography/easy-rsa/easyrsa.part.pdf'>partial solution</a>."}

@@ -1,8 +1,8 @@
 {"name": "Captured packets",
- "score": 40,
+ "score": 20,
  "category": "Forensics",
  "grader": "forensics/Pcap/grader.py",
- "description": "Search through the web traffic <a target=_blank href='/problem-static/forensics/Pcap/dump.pcap'>pcap file</a>. <br/>The flag looks like FLAG{Key...}.",
+ "description": "I wonder where is \"Key\" in <a target=_blank href='/problem-static/forensics/Pcap/dump.pcap'>pcap file</a>. <br/>The flag looks like FLAG{Key...}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Shark bites"}
+ "hint": "Search in Shark Tank. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/forensics/Pcap/captured-packet.part.pdf'>partial solution</a>."}

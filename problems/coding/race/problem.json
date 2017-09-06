@@ -5,4 +5,4 @@
  "description": "Race me at: nc 127.0.0.1 19999 <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "The proper tools must be used to win this race."}
+ "hint": "Pwn tools must be used to win this race. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/coding/race/therace.part.pdf'>partial solution</a>."}

@@ -5,4 +5,4 @@
  "description": "The pdf file signatures seem odd in this <a target=_blank href='/problem-static/forensics/PDFmessage/Fall-of-Roman-Empire.pdf'>pdf file</a>. <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Hex edit"}
+ "hint": "Hex edit. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/forensics/PDFmessage/pdfmessage.part.pdf'>partial solution</a>."}

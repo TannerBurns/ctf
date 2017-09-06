@@ -5,4 +5,5 @@
  "description": "Can you turn this string into a flag? 464c41477b336e436f64316e475f346e445f6433633044316e477d. <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "A witch put a hex on this string."}
+ "hint": "A witch put a hex on this string. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/coding/witches/witches.part.pdf'>partial solution</a>."
+ }

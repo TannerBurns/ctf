@@ -5,4 +5,4 @@
  "description": "Can you find the flag in this <a target=_blank href='/problem-static/reverse/doyouknowstrings/insanity'>file?</a> <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Strings,Strings, more Strings"}
+ "hint": "Strings,Strings, more Strings. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/reverse/doyouknowstrings/do-you-strings.part.pdf'>partial solution</a>."}

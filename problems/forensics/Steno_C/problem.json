@@ -1,8 +1,8 @@
 {"name": "Tabs and Spaces",
- "score": 60,
+ "score": 40,
  "category": "Forensics",
  "grader": "forensics/Steno_C/grader.py",
- "description": "You should alwasy check your whitespace. Compile the code and see the results. Modify as needed. <a target=_blank href='/problem-static/forensics/Steno_C/secret.c'>given file</a>? <br/>The flag looks like flag{......}.",
+ "description": "Are tabs and spaces different? Compile the code and see the results. Modify as needed. <a target=_blank href='/problem-static/forensics/Steno_C/secret.c'>given file</a>? <br/>The flag looks like flag{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Use a better text editor than vim or IDEs' like ecplipse/codeblocks. Recommended: sublimetext"}
+ "hint": "Use a better text editor to see tabs and spaces. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/forensics/Steno_C/tabs-spaces.part.pdf'>partial solution</a>."}

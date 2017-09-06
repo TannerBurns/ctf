@@ -5,4 +5,6 @@
  "description": "Find your hacker level: nc 127.0.0.1 11111 <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "Only a true hacker can pwn this."}
+ "hint": "A true hacker uses pwn tool. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/coding/hackerlvl/hackerlevel.part.pdf'>partial solution</a>."
+ 
+ }

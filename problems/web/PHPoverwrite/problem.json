@@ -5,5 +5,5 @@
  "description": "Submit the correct password. <a target=_blank href='http://127.0.0.1:10800/'>http://127.0.0.1:10800/</a> <br/>The flag looks like FLAG{......}.",
  "threshold": 0,
  "weightmap": {},
- "hint": "POSTit"
+ "hint": "POSTit. <br></br>Still no clue? Read the <a target=_blank href='/problem-static/web/PHPoverwrite/phpoverwrite.part.pdf'>partial solution</a>."
  }
